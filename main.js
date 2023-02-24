@@ -54,7 +54,7 @@ function render() {
     //this moves the value of the board item into the squares[idx]
     squares[index].textContent = mark;
     });
-    messages.textContent = win === 'T' ? `That's a tie, queen!` : win ? `${win} wins the game!` : `It's ${turn}'s turn!`;
+    messages.textContent = win === 'T' ? `That's a tie!!!` : win ? `${win} wins the game!` : `It's ${turn}'s turn!`;
     };
 
 init();
